@@ -38,5 +38,12 @@
     "company-dashboard.name": "",
     "company-dashboard.website": "Site internet",
     "company-dashboard.headline-company-description": "Description de l'entreprise Bonjour !",
-    "company-dashboard.heading-general-info": "informations générales"
+    "company-dashboard.heading-general-info": "informations générales",
+    "test.label": "Étiquette",
+    "test.plural": "Vous êtes abonné aux services de {number} .",
+    "test.headline": "Inscription à la newsletter réussie",
+    "test.greeting": "Bonjour {firstName} {lastName} ,",
+    "test.title": "Activer mon compte",
+    "test.text": "Activez simplement votre compte et créez votre mot de passe avant le [date].",
+    "test.paragraph": "Bienvenue chez ClimatePartner. Nous avons créé votre compte utilisateur."
 }
