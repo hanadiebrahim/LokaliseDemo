@@ -38,5 +38,9 @@
     "company-dashboard.name": "Name",
     "company-dashboard.website": "Webseite",
     "company-dashboard.headline-company-description": "Firmenbeschreibung",
-    "company-dashboard.heading-general-info": "Allgemeine Informationen"
+    "company-dashboard.heading-general-info": "Allgemeine Informationen",
+    "test.label": "",
+    "test.plural": "",
+    "test.headline": "",
+    "test.greeting": ""
 }

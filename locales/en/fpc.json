@@ -38,5 +38,9 @@
     "company-dashboard.name": "Name",
     "company-dashboard.website": "Website",
     "company-dashboard.headline-company-description": "Company Description hello!",
-    "company-dashboard.heading-general-info": "General information"
+    "company-dashboard.heading-general-info": "General information",
+    "test.label": "Label",
+    "test.plural": "You have subscribed to {number} services.",
+    "test.headline": "Successful newsletter signup",
+    "test.greeting": "Hello {firstName} {lastName},"
 }
