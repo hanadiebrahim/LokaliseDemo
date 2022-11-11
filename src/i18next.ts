@@ -1,20 +1,16 @@
-import i18n from "i18next";
+import i18n, {use} from "i18next";
 import {initReactI18next } from "react-i18next";
+import Backend from "i18next-http-backend";
 
-export const i18next = i18n
-    .use(initReactI18next)
+i18n.use(initReactI18next)
+    use(Backend)
     .init({
-         resources: {
-            en: {
-                translation: {
-                    "newsletter.signup,title": "Successful newsletter signup"
-                }
-            }
-        },
-        lng: "en",
+        ns:['fpc', 'shared'],
+        defaultNS: 'fpc',
+        debug: true,
+        lng: "de",
         fallbackLng: "en",
-
-        interpolation: {
-            escapeValue: false
+        react:{
+            nsMode: 'default',
         }
     });

@@ -8,6 +8,8 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App />
+      <React.Suspense fallback={"loading"}>
+          <App />
+      </React.Suspense>
   </React.StrictMode>
 );

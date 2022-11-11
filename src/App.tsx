@@ -1,41 +1,42 @@
 import React from 'react';
 import {Box, Button, Container, Typography} from "@mui/material";
-import { useTranslation } from "react-i18next";
+import { useTranslation, I18nextProvider } from "react-i18next";
+import  "./i18next";
 function App() {
-    const { t } = useTranslation();
+  const { t } = useTranslation();
   return (
     <Container >
         <Box  mt={20} p={2}  bgcolor={"background.default"}>
             <Box mb={3}>
                 <Typography color={"#001862"} >
-                    Label
+                    {t('fpc:test.label')}
                 </Typography>
                 <Typography variant={"h4"} color={"#001862"}>
-                    Successful newsletter signup
+                    {t('fpc:test.headline')}
                 </Typography>
             </Box>
 
             <Box mb={3}>
                 <Typography variant={"h6"} mb={2}>
-                    Hello firstName lastName,
+                    {t('fpc:test.greeting')},
                 </Typography>
                 <Typography variant={"body2"} mb={2}>
-                    Welcome to ClimatePartner. We have created your user account.
+                    {t('fpc:test.paragraph')}
                 </Typography>
                 <Typography variant={"body2"} mb={2}>
-                    You have subscribed to number services.
+                    {t('fpc:test.plural')}
                 </Typography>
             </Box>
 
             <Box bgcolor={"#BFCEE3"} p={5}>
                 <Typography variant={"h4"} mb={2}>
-                    Activate my account
+                    {t('fpc:test.headline')}
                 </Typography>
                 <Typography variant={"body2"} mb={2}>
-                    Simply activate your account and create your password by [date].
+                    {t('fpc:test.text')}
                 </Typography>
                 <Button variant="contained" >
-                    Activate my account
+                    {t('shared:buttons.save')}
                 </Button>
             </Box>
         </Box>
