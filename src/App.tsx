@@ -1,12 +1,25 @@
 import React from 'react';
 import {Box, Button, Container, Typography} from "@mui/material";
-import { useTranslation, I18nextProvider } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import  "./i18next";
+import i18next from "i18next";
+import i18n from "i18next";
 function App() {
   const { t } = useTranslation();
-  return (
+  const languages = {
+      en:{ name: "English" },
+      de:{ name: "Deutsch" }
+  }
+    return (
     <Container >
-        <Box  mt={20} p={2}  bgcolor={"background.default"}>
+        <Box mt={20} mb={4}>
+            {Object.keys(languages).map((lng)=>
+                <Button variant={"outlined"} onClick={()=> i18next.changeLanguage(lng)} disabled={i18n.resolvedLanguage === lng}>
+                    {languages[lng].name}
+                </Button>)
+            }
+        </Box>
+        <Box p={2}  bgcolor={"background.default"}>
             <Box mb={3}>
                 <Typography color={"#001862"} >
                     {t('fpc:test.label')}

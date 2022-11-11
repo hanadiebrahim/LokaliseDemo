@@ -8,7 +8,7 @@ i18n.use(initReactI18next)
         ns:['fpc', 'shared'],
         defaultNS: 'fpc',
         debug: true,
-        lng: "de",
+        lng: "en",
         fallbackLng: "en",
         react:{
             nsMode: 'default',
