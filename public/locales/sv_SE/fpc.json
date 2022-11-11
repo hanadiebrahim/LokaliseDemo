@@ -45,5 +45,6 @@
     "test.greeting": "Hej {firstName} {lastName}",
     "test.title": "Aktivera mitt konto",
     "test.text": "Aktivera helt enkelt ditt konto och skapa ditt lösenord senast [datum].",
-    "test.paragraph": "Välkommen till ClimatePartner. Vi har skapat ditt användarkonto."
+    "test.paragraph": "Välkommen till ClimatePartner. Vi har skapat ditt användarkonto.",
+    "test.button": ""
 }
