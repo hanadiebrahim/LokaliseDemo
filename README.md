@@ -1,1 +1,1 @@
-# LokaliseDemo
+A project to test Lokalise integration
