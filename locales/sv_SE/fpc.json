@@ -36,7 +36,14 @@
     "company-dashboard.button.40": "",
     "company-dashboard.evaluation": "",
     "company-dashboard.name": "",
-    "company-dashboard.website": "",
+    "company-dashboard.website": "Webbplats",
     "company-dashboard.headline-company-description": "",
-    "company-dashboard.heading-general-info": "Allmän information"
+    "company-dashboard.heading-general-info": "Allmän information",
+    "test.label": "Märka",
+    "test.plural": "Du har prenumererat på {number} tjänster.",
+    "test.headline": "Lyckad registrering för nyhetsbrev",
+    "test.greeting": "Hej {firstName} {lastName}",
+    "test.title": "Aktivera mitt konto",
+    "test.text": "Aktivera helt enkelt ditt konto och skapa ditt lösenord senast [datum].",
+    "test.paragraph": "Välkommen till ClimatePartner. Vi har skapat ditt användarkonto."
 }
