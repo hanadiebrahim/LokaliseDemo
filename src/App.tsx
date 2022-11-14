@@ -6,6 +6,7 @@ import i18next from "i18next";
 import i18n from "i18next";
 function App() {
   const { t } = useTranslation();
+  const newDate = new Date();
   const languages = {
       en:{ name: "English" },
       de:{ name: "Deutsch" }
@@ -46,7 +47,7 @@ function App() {
                     {t('fpc:test.headline')}
                 </Typography>
                 <Typography variant={"body2"} mb={2}>
-                    {t('fpc:test.text')}
+                    {t('fpc:test.text' , {date:  newDate})}
                 </Typography>
                 <Button variant="contained" >
                     {t('shared:buttons.save')}
