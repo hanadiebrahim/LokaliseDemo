@@ -42,7 +42,7 @@
     "test.label": "Label",
     "test.plural": "You have subscribed to {number} services.",
     "test.headline": "Successful newsletter signup",
-    "test.greeting": "Hello {firstName} {lastName},",
+    "test.greeting": "Hello {{ firstName }} {{ lastName} },",
     "test.title": "Activate my account",
     "test.text": "Simply activate your account and create your password by [date].",
     "test.paragraph": "Welcome to ClimatePartner. We have created your user account.",
