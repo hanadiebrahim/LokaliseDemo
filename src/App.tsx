@@ -31,7 +31,7 @@ function App() {
 
             <Box mb={3}>
                 <Typography variant={"h6"} mb={2}>
-                    {t('fpc:test.greeting')},
+                    {t('fpc:test.greeting', {firstName : "John" , lastName: "Doe"})}
                 </Typography>
                 <Typography variant={"body2"} mb={2}>
                     {t('fpc:test.paragraph')}
