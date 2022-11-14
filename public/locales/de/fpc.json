@@ -40,6 +40,6 @@
     "company-dashboard.headline-company-description": "Firmenbeschreibung",
     "company-dashboard.heading-general-info": "Allgemeine Informationen",
     "test.title": "Mein Konto freischalten",
-    "test.text": "Aktivieren Sie einfach Ihr Konto und erstellen Sie Ihr Passwort bis zum [Datum].",
+    "test.text": "Aktivieren Sie einfach Ihr Konto und erstellen Sie Ihr Passwort bis zum  {{ date, datetime }}.",
     "test.paragraph": "Willkommen bei ClimatePartner. Wir haben Ihr Benutzerkonto eingerichtet."
 }

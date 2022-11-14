@@ -4,8 +4,8 @@
     "test.label": "Märka",
     "test.plural": "Du har prenumererat på {number} tjänster.",
     "test.headline": "Lyckad registrering för nyhetsbrev",
-    "test.greeting": "Hej {firstName} {lastName}",
+    "test.greeting": "Hej {{ firstName }} {{ lastName }},",
     "test.title": "Aktivera mitt konto",
-    "test.text": "Aktivera helt enkelt ditt konto och skapa ditt lösenord senast [datum].",
+    "test.text": "Aktivera helt enkelt ditt konto och skapa ditt lösenord senast {{ date, datetime }}.",
     "test.paragraph": "Välkommen till ClimatePartner. Vi har skapat ditt användarkonto."
 }
