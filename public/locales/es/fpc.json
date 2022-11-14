@@ -15,8 +15,8 @@
     "company-dashboard.heading-general-info": "Información general",
     "test.label": "Etiqueta",
     "test.headline": "Suscripción exitosa al boletín",
-    "test.greeting": "Hola {firstName} {lastName} ,",
+    "test.greeting": "Hola {{ firstName }} {{ lastName }} ,",
     "test.title": "activar mi cuenta",
-    "test.text": "Simplemente active su cuenta y cree su contraseña antes del [fecha].",
+    "test.text": "Simplemente active su cuenta y cree su contraseña antes del  {{ date, datetime }}.",
     "test.paragraph": "Bienvenido a ClimatePartner. Hemos creado tu cuenta de usuario."
 }
