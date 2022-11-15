@@ -41,7 +41,7 @@
     "company-dashboard.heading-general-info": "General information",
     "test.label": "Label",
     "test.plural": "You have subscribed to {number} services.",
-    "test.headline": "Successful newsletter signup",
+    "test.headline": "You signed up successfully!",
     "test.greeting": "Hello {{ firstName }} {{ lastName}},",
     "test.title": "Activate my account",
     "test.text": "Simply activate your account and create your password by {{ date, datetime }}.",
